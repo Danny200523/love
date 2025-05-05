@@ -63,7 +63,7 @@ button {
     position: relative;
     overflow: hidden;
 }
-.yes {
+#YES {
     background: linear-gradient(to right, #ff6b6b, #ff4f81);
     color: white;
     box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
@@ -88,7 +88,7 @@ button {
 .yes:active {
     transform: scale(0.95);
 }
-.no {
+#NO {
     background: white;
     color: #666;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);

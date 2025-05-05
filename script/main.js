@@ -16,8 +16,8 @@ const frases = [
   ];
 
   let indice = 0;
-  const btnCambiante = document.getElementsByClassName("no");
-  const btnIzquierdo = document.getElementsByClassName("yes");
+  const btnCambiante = document.getElementById("NO");
+  const btnIzquierdo = document.getElementById("YES");
 
   btnCambiante.addEventListener("click", () => {
     // Cambiar el texto del botón
@@ -28,9 +28,6 @@ const frases = [
     const currentFontSize = parseFloat(window.getComputedStyle(btnIzquierdo).fontSize);
     const currentPadding = parseFloat(window.getComputedStyle(btnIzquierdo).padding);
     
-    btnIzquierdo.style.fontSize = (currentFontSize + 2) + "vw";
-    btnIzquierdo.style.padding = (currentPadding + 5) + "vw";
+    btnIzquierdo.style.fontSize = (currentFontSize + 5) + "px";
+    btnIzquierdo.style.padding = (currentPadding + 10) + "px";
   });
-  btnIzquierdo.addEventListener("click",function(){
-
-  })
