@@ -12,7 +12,26 @@ const frases = [
     "¿Sin dudas?",
     "¿Es tu decisión final?",
     "¿Segura, segura?",
-    "¿100% segura?"
+    "¿100% segura?",
+    "Lo pensaste bien?",
+    "¿Segura de continuar?",
+    "¿Estás completamente segura?",
+    "¿Te sientes lista?",
+    "¿Vas en serio?",
+    "¿Lo decidiste tú?",
+    "¿Esto es lo que quieres?",
+    "¿No te arrepientes?",
+    "¿Te suena bien?",
+    "¿Nada que pensar?",
+    "¿Con el corazón?",
+    "¿No hay vuelta atrás?",
+    "¿Eso sientes?",
+    "¿Así lo deseas?",
+    "¿Va en firme?",
+    "¿Estás convencida?",
+    "¿Lo tienes decidido?",
+    "¿Estás dispuesta?",
+    "¿No tienes dudas?"
   ];
 
   let indice = 0;
