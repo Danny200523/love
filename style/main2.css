@@ -91,7 +91,9 @@ img {
         padding: 0 10px;
         box-sizing: border-box;
     }
-    
+    .any{
+        font-size: 1.6rem;
+    }
     .imgs {
         gap: 4vw;
         flex-direction: column;
